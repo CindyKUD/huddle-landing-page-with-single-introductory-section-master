@@ -21,6 +21,86 @@ body {
     background-size: contain;
 }
 
+main {
+    min-width: 315px;
+    margin: 38px 30px;
+}
+
+header img{
+    width: 122px;
+}
+
+.mockup img{
+    width: 310px;
+    margin: 45px auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content p{
+    margin: 45px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: var(--Violet);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 4px 4px 6px rgb(53, 26, 75);
+    margin-bottom: 70px;
+}
+
+button:hover {
+    color: white;
+    background-color: var(--SoftMagenta);
+    cursor: pointer;
+}
+
+.icons {
+    width: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons article{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.icons article:hover{
+    color: var(--SoftMagenta);
+    cursor: pointer;
+}
+svg:hover{
+    fill: var(--SoftMagenta);
+}
+
 /*-----footer-----*/
 .attribution {
     font-size: 11px; text-align: center;
