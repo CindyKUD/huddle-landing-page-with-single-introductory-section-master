@@ -30,6 +30,9 @@ header img{
     width: 122px;
 }
 
+.container {
+    text-align: center;
+}
 .mockup img{
     width: 310px;
     margin: 45px auto;
@@ -37,6 +40,8 @@ header img{
 
 .content {
     text-align: center;
+    width: 315px;
+    margin: 0 auto;
 }
 
 .content h1{
@@ -107,4 +112,20 @@ svg:hover{
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 650px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img{
+        width: 180px;
+    }
+    .container {
+        display: flex;
+        max-width: 100%;
+    }
+
 }
