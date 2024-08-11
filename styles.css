@@ -133,3 +133,45 @@ svg:hover{
         display: flex;
     }
 }
+
+@media only screen and (min-width: 1000px){
+    main {
+        width: 900px;
+    }
+    header img {
+        width: 200px;
+    }
+    .mockup img{
+        width: 400px;
+    }
+    .content {
+        width: 450px;
+        text-align: left;
+        margin: auto 0 auto 50px;
+    }
+    .content h1{
+        width: 300px;
+    }
+    .content p{
+        margin: 20px 0;
+    }
+    button {
+        margin-bottom: 0;
+    }
+    .icons {
+        margin: 0;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    main {
+        width: 1250px;
+    }
+    .mockup img{
+        width: 650px;
+    }
+    .content{
+        width: 550px;
+    }
+}
