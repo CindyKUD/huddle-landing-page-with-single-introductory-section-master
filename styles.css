@@ -114,18 +114,22 @@ svg:hover{
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 700px){
     body{
         background-image: url(images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:contain
     }
+
+    main {
+        width: 650px;
+        margin: 38px auto;
+    }
+
     header img{
         width: 180px;
     }
     .container {
         display: flex;
-        max-width: 100%;
     }
-
 }
